@@ -2,6 +2,34 @@
 
 An example project demonstrating four different ways to implement Server-Sent Events (SSE) in the frontend using EventSource, XMLHttpRequest (XHR), Fetch API, and @microsoft/fetch-event-source for real-time communication
 
+## Getting Started
+
+### Backend (Server)
+
+1. Install dependencies using Poetry:
+
+   ```
+   poetry install
+   ```
+
+2. Start the server:
+   ```
+   python server.py
+   ```
+
+### Frontend
+
+1. Install dependencies:
+
+   ```
+   pnpm install
+   ```
+
+2. Start the development server:
+   ```
+   npx vite
+   ```
+
 #### [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events)
 
 - The browser provides a method to handle SSE (Server-Sent Events).
