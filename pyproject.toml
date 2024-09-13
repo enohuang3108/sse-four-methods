@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stream-poc"
+version = "0.1.0"
+description = ""
+authors = ["eno.huang <eno.huang@zyxel.com.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+quart = "^0.19.6"
+quart-cors = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
